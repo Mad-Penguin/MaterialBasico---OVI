@@ -20,4 +20,16 @@ Como su nombre indica se necesitará definir el espacio de búsqueda, el cual in
 
 # Problemas recomendados
 
+ - [Adivina el número][1]
+ 
+ - [Fulanito] [2] 
 
+ - [Tiringo-riringo][3]
+
+ - [L-¿Cuánto nos toca? ][4]
+
+
+  [1]: https://omegaup.com/arena/problem/COMI-Adivina-el-numero#problems
+  [2]: https://omegaup.com/arena/problem/Fulanito#problems
+  [3]: https://omegaup.com/arena/problem/probD#problems
+  [4]: https://omegaup.com/arena/problem/cuanto#problems
