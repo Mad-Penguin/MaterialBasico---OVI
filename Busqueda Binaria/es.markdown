@@ -22,7 +22,7 @@ Como su nombre indica se necesitará definir el espacio de búsqueda, el cual in
 
  - [Adivina el número][1]
  
- - [Fulanito] [2] 
+ - [Fulanito][2] 
 
  - [Tiringo-riringo][3]
 
