@@ -79,10 +79,25 @@ int busq_bin(int ini,int fin,int x){
 
  - [Tiringo-riringo][3]
 
- - [L-¿Cuánto nos toca? ][4]
+ - [LHC][4]
+
+ - [L-¿Cuánto nos toca?][5]
+
+ - [Chocolates CIIC 2015][6]
+
+ - [Los laboratoristas][7]
+
+ - [Planetas][8]
+
+ - [Comprador de Bloques][9]
 
 
   [1]: https://omegaup.com/arena/problem/COMI-Adivina-el-numero#problems
   [2]: https://omegaup.com/arena/problem/Fulanito#problems
   [3]: https://omegaup.com/arena/problem/probD#problems
-  [4]: https://omegaup.com/arena/problem/cuanto#problems
+  [4]: https://omegaup.com/arena/problem/LHC#problems
+  [5]  https://omegaup.com/arena/problem/cuanto#problems
+  [6]: https://omegaup.com/arena/problem/Chocolates-CIIC-2015#problems
+  [7]: https://omegaup.com/arena/problem/Los-laboratoristas#problems
+  [8]: https://omegaup.com/arena/problem/Planetas#problems
+  [9]: https://omegaup.com/arena/problem/Comprador-de-Bloques#problems
