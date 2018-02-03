@@ -68,6 +68,9 @@ int busq_bin(int ini,int fin,int x){
      return -1;
 }
 </pre>
+
+![ejemplo](ej.gif)
+
 # Problemas recomendados
 
  - [Adivina el número][1]
