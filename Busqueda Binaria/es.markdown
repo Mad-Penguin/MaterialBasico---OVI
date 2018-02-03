@@ -14,11 +14,13 @@ Como su nombre indica se necesitará definir el espacio de búsqueda, el cual in
 
 Pero lo realmente interesante de esta técnica es que no solo sirve para encontrar un elemento en algún arreglo ordenado, sino que se puede aplicar en cualquier problema que satisfaga lo siguiente:
 
-*Dado un espacio de búsqueda acotado por $[ini,fin]$ y una expresión booleana $f(x)$, donde si $f(y)$ no se cumple, entonces $f(y-1)$ tampoco se cumple; se desea encontrar el menor valor de $z$ tal que $f(z)$ se cumple*
+*Dado un espacio de búsqueda acotado por $[ini,fin]$ y una expresión booleana $f(x)$, donde si $f(y)$ no se cumple, entonces $f(y-1)$ tampoco se cumple; se desea encontrar el menor valor de $z$ tal que $f(z)$ se cumple.*
 
-De lo anterior también se puede inferir que si $f(z)$ se cumple, entonces $f(z+1)$ también lo hace. Entonces al evaluar valores consecutivos en $f(x)$ se puede observar algo como lo siguiente.
+De lo anterior también se puede inferir que si $f(z)$ se cumple, entonces $f(z+1)$ también lo hace. Entonces al evaluar valores consecutivos en $f(x)$ se puede observar algo como lo siguiente. 
 
 ![funcion](funcion.png)
+
+Y gracias a todo esto es que se puede ir reduciendo a la mitad el espacio de búsqueda.
 
 # Complejidad
 
