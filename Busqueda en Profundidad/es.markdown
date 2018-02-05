@@ -10,13 +10,13 @@ Para ejemplificar de mejor manera lo anterior, utilicemos el siguiente esquema q
 
 En éste caso, el estado A es *padre* de los estados B, C y D, por lo que, de igual manera, se puede decir que B, C y D son *hijos* del estado A, así como a su vez, dichos tres estados son *hermanos* entre sí.
 
-Una vez comprendidos los conceptos anteriores, se define como *backtracking* a la técnica, donde, desde un estado inicial, se avanza hacia yendo a todos los estados hijos, posteriormente a los hijos de éstos, y así consecutivamente. Se conoce como *estados hijos* a todos aquellos a los que se puede llegar a partir de un determinado estado, conocido como *estado padre*. Se continúa yendo por cada estado hacia su hijo, uno a la vez, de modo que cada estado solo se visite en una única ocasión.
+Una vez comprendidos los conceptos anteriores, se define como *backtracking* a la técnica, donde, desde un estado inicial, se avanza hacia yendo a todos los estados hijos, posteriormente a los hijos de éstos, y así consecutivamente. Se conoce como *estados hijos* a todos aquellos a los que se puede llegar a partir de un determinado estado, conocido como *estado padre*. Se continúa yendo por cada estado hacia su hijo, uno a la vez, de modo que cada estado solo se visite en una única ocasión dentro de .
 
 Al momento de avanzar en el espacio de búsqueda, se exploran todos los hijos de un estado en concreto antes de explorar los estados del mismo nivel. De ésta forma, se sigue un camino en concreto, que, una vez explorado, se modifica para que explore otros estados dentro del mismo espacio de búsqueda.
 
-![DFS](DFS.png)
+![DFS](DFS.gif)
 
-Es de ahí donde surge la naturaleza ***recursiva*** de la DFS: al momento de explorar el espacio de búsqueda por medio de profundidad, se explora un estado y los hijos de éste, antes de explorar los estados hermanos y sus subsecuentes hijos. Una vez que se termina 
+Es de ahí donde surge la naturaleza ***recursiva*** de la DFS: al momento de explorar el espacio de búsqueda por medio de profundidad, se explora un estado y los hijos de éste, antes de explorar los estados hermanos y sus subsecuentes hijos, dejando pendiente visitar éstos últimos, sólo cuando todos los hijos (y los estados que deriven de éstos) del estado actual sean consultados. Una vez que se termina un camino y el estado actual no puede generar hijos y/o genera estados visitados con anterioridad
 
 A diferencia de una *búsqueda en amplitud (BFS)*, donde se exploran todos los estados hermanos derivados de un mismo padre y, posteriormente, los hijos de dichos estados, en una búsqueda en profundidad 
 
