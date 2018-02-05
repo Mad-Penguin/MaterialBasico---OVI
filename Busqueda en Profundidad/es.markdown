@@ -18,7 +18,7 @@ Una vez comprendidos los conceptos anteriores, se define como *backtracking* a l
 
 Al momento de avanzar en el espacio de búsqueda, se exploran todos los hijos de un estado en concreto antes de explorar los estados del mismo nivel. De ésta forma, se sigue un camino en concreto, que, una vez explorado, se modifica para que explore otros estados dentro del mismo espacio de búsqueda.
 
-Es importante recalcar que el principio de no pasar por un estado ya visitado en el camino que se recorre proviene del hecho de que la profundida, como se aclaró anteriormente, busca explorar todas las posibilidades dentro del espacio de búsqueda, lo cual lleva a que, en ciertos casos, un estado genere un hijo que se había explorado con anterioridad. El problema en ésto reside en que dicho punto ya visitado generará los mismos estados hijos que generó la primera vez que se exploró, y éstos a su vez tendran la misma descendencia y así consecutivamente, lo cual tiende a una **ejecución cíclica**, y por ende, el algoritmo nunca terminará. 
+Es importante recalcar que el principio de no pasar por un estado ya visitado en el camino que se recorre proviene del hecho de que la profundidad, como se aclaró anteriormente, busca explorar todas las posibilidades dentro del espacio de búsqueda. Ésto lleva a que, en ciertos casos, un estado genere un hijo que se había explorado con anterioridad. El problema en ésto reside en que dicho punto ya visitado generará los mismos estados hijos que generó la primera vez que se exploró, y éstos a su vez tendran la misma descendencia y así consecutivamente, lo cual tiende a una **ejecución cíclica**, y por ende, el algoritmo nunca terminará. 
 
 ![DFS](DFS.gif)
 
