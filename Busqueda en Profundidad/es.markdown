@@ -18,11 +18,17 @@ Una vez comprendidos los conceptos anteriores, se define como *backtracking* a l
 
 Al momento de avanzar en el espacio de búsqueda, se exploran todos los hijos de un estado en concreto antes de explorar los estados del mismo nivel. De ésta forma, se sigue un camino en concreto, que, una vez explorado, se modifica para que explore otros estados dentro del mismo espacio de búsqueda.
 
+Es importante recalcar que el principio de no pasar por un estado ya visitado en el camino que se recorre proviene del hecho de que la profundida, como se aclaró anteriormente, busca explorar todas las posibilidades dentro del espacio de búsqueda, lo cual lleva a que, en ciertos casos, un estado genere un hijo que se había explorado con anterioridad. El problema en ésto reside en que dicho punto ya visitado generará los mismos estados hijos que generó la primera vez que se exploró, y éstos a su vez tendran la misma descendencia y así consecutivamente, lo cual tiende a una **ejecución cíclica**, y por ende, el algoritmo nunca terminará. 
+
 ![DFS](DFS.gif)
+
+# Recursión en la Profundidad
+
+Es de ahí donde surge la naturaleza ***recursiva*** de la DFS: al momento de explorar el espacio de búsqueda por medio de profundidad, se explora un estado y los hijos de éste, antes de explorar los estados hermanos y sus subsecuentes hijos; tomar estados hermanos en lugar del que se explora actualmente y visitar sus hijos queda pendiente mediante la **recursión**, la cual es llevada a cabo mediante diferentes instancias de una misma función, o mediante una estructura ***Stack*** de la STL. 
 
 # Diferencia entre Amplitud y Profundidad
 
-Es de ahí donde surge la naturaleza ***recursiva*** de la DFS: al momento de explorar el espacio de búsqueda por medio de profundidad, se explora un estado y los hijos de éste, antes de explorar los estados hermanos y sus subsecuentes hijos; tomar estados hermanos en lugar del que se explora actualmente y visitar sus hijos queda pendiente mediante la **recursión**, la cual es llevada a cabo mediante diferentes instancias de una misma función, o mediante una estructura ***Stack*** de la STL. La recursión se encargará de que, una vez que se termine un camino y el estado actual no puede generar hijos y/o los que genera fueron visitados con anterioridad, aquellos estados hermanos y los caminos que nazcan de éstos sean visitados y se sigan nuevas vías. Ésto se traduce como *visitar todas las posibilidades en el espacio de búsqueda*. 
+La recursión se encargará de que, una vez que se termine un camino y el estado actual no puede generar hijos y/o los que genera fueron visitados con anterioridad, aquellos estados hermanos y los caminos que nazcan de éstos sean visitados y se sigan nuevas vías. Ésto se traduce como *visitar todas las posibilidades en el espacio de búsqueda*. 
 
 A diferencia de una *búsqueda en amplitud (Breadth First Search ó BFS)*, donde se exploran todos los estados hermanos derivados de un mismo padre y, posteriormente, los hijos y descendencia de dichos estados, en una búsqueda en profundidad se visitan todos los hijos del estado actual y después los estados hermanos y su diferencia.
 
