@@ -44,5 +44,7 @@ Tomemos como primer ejemplo el primer problema:
  
 Entiéndase por subsecuencia un conjunto de enteros dentro de una secuencia (en éste caso, $S$) cuyas posiciones dentro de la misma sean consecutivas, y estén en orden creciente. Véase el siguiente ejemplo: 
 
-*En la cadena $S$={1,2,4,3,9,6}, una posible subcadena es {1,2,4}, otra es {3,9} y otra muestra de subcadena es {4,3,9,6}, por nombrar ejemplos (aunque éstas no son todas las posibles subsecuencias). Es necesario indicar que también son subsecuencias válidas el **vacío** {} y la secuencia completa {1,2,4,3,9,6}, ya que cumplen la condición de estar dentro de la secuencia $S$ y que sus posiciones son crecientes y consecutivas.*
+![secuenciaS](secuenciaS.png)
+
+En la cadena $S={1,2,2,2,4,3,9,6}$, una posible subcadena es ${1,2,2}$, otra es ${3,9}$ y otra muestra de subcadena es ${4,3,9,6}$, por nombrar ejemplos (aunque éstas no son todas las posibles subsecuencias). Es necesario indicar que también son subsecuencias válidas el **vacío** ${}$ y la secuencia completa ${1,2,2,2,4,3,9,6}$, ya que cumplen la condición de estar dentro de la secuencia $S$ y que sus posiciones son crecientes y consecutivas. Ejemplos de subsecuencias no válidas son ${1,2,4}$ y ${6,9,3}$. De igual manera, repetir la subsecuencia ${2,2}$ más de una vez, aunque dentro de $S$ se repita, es incorrecto, ya que el problema pide que todas las subsecuencias sean distintas entre sí y no se repitan.
 
