@@ -59,7 +59,7 @@ Las matrices y ciclos funcionan extremadamente bien juntos; se puede acceder a u
 Aquí hay un pequeño programa que demuestra el uso de ciclos for para crear tablas de multiplicar y almacenar los resultados en una matriz de dos dimensiones.
 
 <pre>
-  #include <iostream>
+  # include <iostream>
   using namespace std;
   int main ()
   {
