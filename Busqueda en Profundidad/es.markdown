@@ -40,7 +40,9 @@ A continuación, se puede apreciar la comparación entre el funcionamiento de un
 
 Tomemos como primer ejemplo el primer problema:
 
- *Sea $S$ una secuencia de $N$ enteros cualesquiera, cuyos valores se encuentran entre 0 y 9, inclusive. Indicar todas las posibles subsecuencias que se puedan generar dentro de la secuencia $S$.*
+ *Sea $S$ una secuencia de $N$ enteros cualesquiera, cuyos valores se encuentran entre 0 y 9, inclusive. Indicar todas las posibles       subsecuencias distintas que se puedan generar dentro de la secuencia $S$.*
  
+Entiéndase por subsecuencia un conjunto de enteros dentro de una secuencia (en éste caso, $S$) cuyas posiciones dentro de la misma sean consecutivas, y estén en orden creciente. Véase el siguiente ejemplo: 
 
+*En la cadena $S$={1,2,4,3,9,6}, una posible subcadena es {1,2,4}, otra es {3,9} y otra muestra de subcadena es {4,3,9,6}, por nombrar ejemplos (aunque éstas no son todas las posibles subsecuencias). Es necesario indicar que también son subsecuencias válidas el **vacío** {} y la secuencia completa {1,2,4,3,9,6}, ya que cumplen la condición de estar dentro de la secuencia $S$ y que sus posiciones son crecientes y consecutivas.*
 
