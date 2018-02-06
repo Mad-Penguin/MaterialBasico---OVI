@@ -7,3 +7,13 @@ Puede pensar en un arreglo como una lista numerada donde puede acceder a los ele
 Podemos visualizarlo de la siguiente manera:
 
 ![vista](arrayscheme.jpg)
+
+# Consideraciones de sintaxis para arreglos
+
+# Declarar Arreglos
+
+Para declarar un arreglo, debe especificar dos cosas (además del nombre): el tipo y el tamaño.
+
+<pre>
+int my_array [6];
+</pre>
