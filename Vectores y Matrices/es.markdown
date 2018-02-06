@@ -82,3 +82,48 @@ Aquí hay un pequeño programa que demuestra el uso de ciclos for para crear tab
       }
     }
 </pre>
+
+# Funciones con arreglos
+
+Al declarar una función que use arreglos como parámetros, pones el nombre del arreglo así:
+
+<pre>int sum_array (int values []);</pre>
+
+Notaras que no se pone el tamaño, cuando pasa una matriz a una función, simplemente pasa en la matriz original, por lo que no hay necesidad de darle el tamaño porque no está creando una nueva matriz. El hecho de que la matriz original se pase a la función significa que, si modifica la matriz dentro de una función, ese cambio se mantendrá después de que la función termine (parámetro variable).
+
+Por supuesto, a menos que la función “sepa” cuán grande es el arreglo, para usarlo, esa función necesita tomar el tamaño del arreglo como un segundo parámetro:
+
+<pre>
+int sumArray (int values[], int size)
+{
+  int sum = 0;
+  for ( int i = 0; i < size; i++ )
+  {
+      sum += values[ i ];
+    }
+    return sum;
+}
+</pre>
+
+Por otro lado, si pasa en una matriz multidimensional, debe dar todos los tamaños, excepto el primero
+
+<pre>int gato (int board [] [3]);</pre>
+
+Aunque te parezca “raro”, por ahora, solo recuerda que no necesitas incluir la primera dimensión (aunque puedes, si lo deseas, se ignorará). Puedes tratar esto como una “peculiaridad sintáctica” del lenguaje.
+
+Función para “leer” datos de una matriz de 3x3
+
+<pre>
+void leermat(int mat[][4],int f,int c)
+{
+  for (int i=0;i<f;i++)
+  {
+    for(int j=0;j<c;j++)
+    {
+        int dato;
+        cin>>dato;
+        mat[i][j]=dato;
+    }
+  }
+}
+</pre>
