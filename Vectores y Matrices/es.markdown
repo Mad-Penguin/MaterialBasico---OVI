@@ -46,3 +46,39 @@ int gato [3] [3];
 Visualizándolo de la siguiente manera
 
 ![matriz](matriz.jpg)
+
+Dado que una matriz es rectangular, hay dos índices que debe usar para acceder a ella: uno para la fila y otro para la columna. En el diagrama, he puesto los índices exactos que necesitaría usar para acceder a cada elemento. Todo lo que necesita son dos valores, uno que va en el primer corchete y otro que va en él segundo.
+Puedes hacer una matriz tridimensional, aunque probablemente no necesites hacerlo. De hecho, podrías hacer una matriz de cuatro o cinco dimensiones o más.
+
+Tener una matriz en forma de cuadrícula significa que puede organizar mejor los datos; si tiene un tablero de “GATO”, puede establecer el valor de cada elemento de la matriz para que coincida con la posición actual del tablero. También puede usar una matriz para representar un laberinto o el diseño de un nivel en un juego de rol.
+
+# Implementación de arreglos y matrices con ciclos.
+
+Las matrices y ciclos funcionan extremadamente bien juntos; se puede acceder a una matriz inicializando una variable a 0 e incrementando esa variable hasta que esa variable sea tan grande como la longitud de la matriz, un patrón que se ajusta exactamente al modelo de un ciclo for.
+
+Aquí hay un pequeño programa que demuestra el uso de ciclos for para crear tablas de multiplicar y almacenar los resultados en una matriz de dos dimensiones.
+
+<pre>
+  #include <iostream>
+  using namespace std;
+  int main ()
+  {
+      int array[ 8 ][ 8 ]; // Declara un arreglo de dos dimensiones
+      for ( int i = 0; i < 8; i++ )
+      {
+          for ( int j = 0; j < 8; j++ )
+          {
+            array[ i ][ j ] = i * j; // Asigna un valor a cada elemento
+          }
+      }
+      cout << "Tabla de multiplicar";
+      for ( int i = 0; i < 8; i++ )
+      {
+        for ( int j = 0; j < 8; j++ )
+        {
+          cout << "[ "<< i <<" ][ "<< j <<" ] = ";
+          cout << array[ i ][ j ] <<" "; cout << "\n";
+        }
+      }
+    }
+</pre>
