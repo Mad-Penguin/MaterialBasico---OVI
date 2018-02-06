@@ -34,3 +34,15 @@ Una vez que haya elegido un elemento particular en la matriz, lo tratará como c
 int my_array [4]; // declaro el arreglo
 my_array [2] = 2; // establece el tercer elemento del arreglo en 2
 </pre>
+
+# Arreglos de más de una dimensión
+
+Los arreglos también se pueden usar para representar datos multidimensionales, como un tablero de ajedrez o damas (o, si prefieres algo un poco más simple, un tablero de “gato” ). La información multidimensional solo significa que tiene más de un índice para eso.
+
+Para declarar una arreglo de dos dimensiones o matriz , proporciona cada una de las dimensiones:
+
+int gato [3] [3];
+
+Visualizándolo de la siguiente manera
+
+![matriz](matriz.jpg)
