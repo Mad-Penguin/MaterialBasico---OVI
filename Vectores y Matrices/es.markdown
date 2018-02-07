@@ -59,7 +59,7 @@ Las matrices y ciclos funcionan extremadamente bien juntos; se puede acceder a u
 Aquí hay un pequeño programa que demuestra el uso de ciclos for para crear tablas de multiplicar y almacenar los resultados en una matriz de dos dimensiones.
 
 <pre>
-  # include <iostream>
+  #include&lt;iostream&gt;
   using namespace std;
   int main ()
   {
@@ -124,6 +124,11 @@ void leermat(int mat[][4],int f,int c)
         cin>>dato;
         mat[i][j]=dato;
     }
+
   }
 }
 </pre>
+
+# Tarea
+
+[1]: https://omegaup.com/arena/problem/COMI-Traductor
