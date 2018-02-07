@@ -1,40 +1,50 @@
-# Introducción
+# IntroducciÃ³n
 
-La **búsqueda en profundidad** es una de las técnicas fundamentales dentro de las ciencias computacionales. También conocida como *Depth First Search (DFS)* es un tipo de búsqueda recursiva, cuyo funcionamiento se basa en el ***backtracking***.
+La **bÃºsqueda en profundidad** es una de las tÃ©cnicas fundamentales dentro de las ciencias computacionales. TambiÃ©n conocida como *Depth First Search (DFS)* es un tipo de bÃºsqueda recursiva, cuyo funcionamiento se basa en el ***backtracking***.
 
-A grandes rasgos, la finalidad de una DFS es que, dado un espacio de búsqueda, explore todas las posibilidades que se puedan generar dentro de éste. Lo anterior permite encontrar un *estado óptimo* con respecto a cierto criterio, o llegar a un estado en particular, registrando información en el proceso, como la cantidad de estados para llegar al objetivo desde el estado inicial.
+A grandes rasgos, la finalidad de una DFS es que, dado un espacio de bÃºsqueda, explore todas las posibilidades que se puedan generar dentro de Ã©ste. Lo anterior permite encontrar un *estado Ã³ptimo* con respecto a cierto criterio, o llegar a un estado en particular, registrando informaciÃ³n en el proceso, como la cantidad de estados para llegar al objetivo desde el estado inicial.
 
-# Funcionamiento de la Búsqueda en Profundidad 
+# Funcionamiento de la BÃºsqueda en Profundidad 
 
-Para comprender el funcionamiento del *backtracking*, se necesitan comprender tres conceptos. Dos de éstos son *estado padre* y *estado hijo*. Un *estado padre* es aquel a partir del cual se pueden llegar a otros estados, derivados de éste; aquellos "nuevos" estados se conocen como *estados hijos*. De lo anterior, se puede extraer que dos estados son *hermanos* si ambos son hijos del mismo estado padre, es decir, se encuentran en el mismo "nivel" en la búsqueda.
+Para comprender el funcionamiento del *backtracking*, se necesitan comprender tres conceptos. Dos de Ã©stos son *estado padre* y *estado hijo*. Un *estado padre* es aquel a partir del cual se pueden llegar a otros estados, derivados de Ã©ste; aquellos "nuevos" estados se conocen como *estados hijos*. De lo anterior, se puede extraer que dos estados son *hermanos* si ambos son hijos del mismo estado padre, es decir, se encuentran en el mismo "nivel" en la bÃºsqueda.
 
-Para ejemplificar de mejor manera lo anterior, utilicemos el siguiente esquema que representa el espacio de búsqueda, el cual, a su vez, puede ser visto como un árbol, dónde los estados se muestran como nodos:
+Para ejemplificar de mejor manera lo anterior, utilicemos el siguiente esquema que representa el espacio de bÃºsqueda, el cual, a su vez, puede ser visto como un Ã¡rbol, dÃ³nde los estados se muestran como nodos:
 
 ![relationship](relationship.png)
 
-En éste caso, el estado A es *padre* de los estados B, C y D, por lo que se puede decir que B, C y D son *hijos* de A; a su vez, dichos tres estados son *hermanos* entre sí.
+En Ã©ste caso, el estado A es *padre* de los estados B, C y D, por lo que se puede decir que B, C y D son *hijos* de A; a su vez, dichos tres estados son *hermanos* entre sÃ­.
 
-Una vez comprendidos los conceptos anteriores, se define como *backtracking* a la técnica, donde, desde un estado inicial, se avanza hacia yendo a todos los estados hijos, posteriormente a los hijos de éstos, y así consecutivamente. Se continúa yendo por cada estado hacia su hijo, uno a la vez, de modo que cada estado solo se visite en una única ocasión dentro de la ruta que se sigue.
+Una vez comprendidos los conceptos anteriores, se define como *backtracking* a la tÃ©cnica, donde, desde un estado inicial, se avanza hacia yendo a todos los estados hijos, posteriormente a los hijos de Ã©stos, y asÃ­ consecutivamente. Se continÃºa yendo por cada estado hacia su hijo, uno a la vez, de modo que cada estado solo se visite en una Ãºnica ocasiÃ³n dentro de la ruta que se sigue.
 
-Al momento de avanzar en el espacio de búsqueda, se exploran todos los hijos de un estado en concreto antes de explorar los estados del mismo nivel. De ésta forma, se sigue un camino en concreto, que, una vez explorado, se modifica para que explore otros estados dentro del mismo espacio de búsqueda.
+Al momento de avanzar en el espacio de bÃºsqueda, se exploran todos los hijos de un estado en concreto antes de explorar los estados del mismo nivel. De Ã©sta forma, se sigue un camino en concreto, que, una vez explorado, se modifica para que explore otros estados dentro del mismo espacio de bÃºsqueda.
 
-Es importante recalcar que el principio de no pasar por un estado ya visitado en el camino que se recorre proviene del hecho de que la profundidad, como se aclaró anteriormente, busca explorar todas las posibilidades dentro del espacio de búsqueda. Ésto lleva a que, en ciertos casos, un estado genere un hijo que se había explorado con anterioridad. El problema en ésto reside en que dicho punto ya visitado generará los mismos estados hijos que generó la primera vez que se exploró, y éstos a su vez tendran la misma descendencia y así consecutivamente, lo cual tiende a una **ejecución cíclica**, y por ende, el algoritmo nunca terminará. 
+Es importante recalcar que el principio de no pasar por un estado ya visitado en el camino que se recorre proviene del hecho de que la profundidad, como se aclarÃ³ anteriormente, busca explorar todas las posibilidades dentro del espacio de bÃºsqueda. Ã‰sto lleva a que, en ciertos casos, un estado genere un hijo que se habÃ­a explorado con anterioridad. El problema en Ã©sto reside en que dicho punto ya visitado generarÃ¡ los mismos estados hijos que generÃ³ la primera vez que se explorÃ³, y Ã©stos a su vez tendran la misma descendencia y asÃ­ consecutivamente, lo cual tiende a una **ejecuciÃ³n cÃ­clica**, y por ende, el algoritmo nunca terminarÃ¡. 
 
 ![DFS](DFS.gif)
 
-# Recursión en la Profundidad
+# RecursiÃ³n en la Profundidad
 
-Es de ahí donde surge la naturaleza ***recursiva*** de la DFS: al momento de explorar el espacio de búsqueda por medio de profundidad, se explora un estado y los hijos de éste, antes de explorar los estados hermanos y sus subsecuentes hijos; tomar estados hermanos en lugar del que se explora actualmente y visitar sus hijos queda pendiente mediante la **recursión**, la cual es llevada a cabo mediante diferentes instancias de una misma función, o mediante una estructura ***Stack*** de la STL. 
+Es de ahÃ­ donde surge la naturaleza ***recursiva*** de la DFS: al momento de explorar el espacio de bÃºsqueda por medio de profundidad, se explora un estado y los hijos de Ã©ste, antes de explorar los estados hermanos y sus subsecuentes hijos; tomar estados hermanos en lugar del que se explora actualmente y visitar sus hijos queda pendiente mediante la **recursiÃ³n**, la cual es llevada a cabo mediante diferentes instancias de una misma funciÃ³n, o mediante una estructura ***Stack*** de la STL. 
 
 # Diferencia entre Amplitud y Profundidad
 
-La recursión se encargará de que, una vez que se termine un camino y el estado actual no puede generar hijos y/o los que genera fueron visitados con anterioridad, aquellos estados hermanos y los caminos que nazcan de éstos sean visitados y se sigan nuevas vías. Ésto se traduce como *visitar todas las posibilidades en el espacio de búsqueda*. 
+La recursiÃ³n se encargarÃ¡ de que, una vez que se termine un camino y el estado actual no puede generar hijos y/o los que genera fueron visitados con anterioridad, aquellos estados hermanos y los caminos que nazcan de Ã©stos sean visitados y se sigan nuevas vÃ­as. Ã‰sto se traduce como *visitar todas las posibilidades en el espacio de bÃºsqueda*. 
 
-A diferencia de una *búsqueda en amplitud (Breadth First Search ó BFS)*, donde se exploran todos los estados hermanos derivados de un mismo padre y, posteriormente, los hijos y descendencia de dichos estados, en una búsqueda en profundidad se visitan todos los hijos del estado actual y después los estados hermanos y su diferencia.
+A diferencia de una *bÃºsqueda en amplitud (Breadth First Search Ã³ BFS)*, donde se exploran todos los estados hermanos derivados de un mismo padre y, posteriormente, los hijos y descendencia de dichos estados, en una bÃºsqueda en profundidad se visitan todos los hijos del estado actual y despuÃ©s los estados hermanos y su diferencia.
 
-A continuación, se puede apreciar la comparación entre el funcionamiento de una BFS contra una DFS.
+A continuaciÃ³n, se puede apreciar la comparaciÃ³n entre el funcionamiento de una BFS contra una DFS.
 
 ![BFSvsDFS](BFSvsDFS.gif)
- 
 
+# Problemas de Ejemplo
+
+Tomemos como primer ejemplo el primer problema:
+
+ *Sea $S$ una secuencia de $N$ enteros cualesquiera, cuyos valores se encuentran entre 0 y 9, inclusive. Indicar todas las posibles       subsecuencias distintas que se puedan generar dentro de la secuencia $S$.*
+ 
+EntiÃ©ndase por subsecuencia un conjunto de enteros dentro de una secuencia (en Ã©ste caso, $S$) cuyas posiciones dentro de la misma sean consecutivas, y estÃ©n en orden creciente. VÃ©ase el siguiente ejemplo: 
+
+![secuenciaS](secuenciaS.png)
+
+En la cadena $S={1,2,2,2,4,3,9,6}$, una posible subcadena es ${1,2,2}$, otra es ${3,9}$ y otra muestra de subcadena es ${4,3,9,6}$, por nombrar ejemplos (aunque Ã©stas no son todas las posibles subsecuencias). Es necesario indicar que tambiÃ©n son subsecuencias vÃ¡lidas el **vacÃ­o** ${}$ y la secuencia completa ${1,2,2,2,4,3,9,6}$, ya que cumplen la condiciÃ³n de estar dentro de la secuencia $S$ y que sus posiciones son crecientes y consecutivas. Ejemplos de subsecuencias no vÃ¡lidas son ${1,2,4}$ y ${6,9,3}$. De igual manera, repetir la subsecuencia ${2,2}$ mÃ¡s de una vez, aunque dentro de $S$ se repita, es incorrecto, ya que el problema pide que todas las subsecuencias sean distintas entre sÃ­ y no se repitan.
 

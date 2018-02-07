@@ -41,23 +41,33 @@ Donde $T$ es el tipo de elementos que almacenara el set con nombre o identificad
    
 Este es un listado de las funciones que con mayor frecuencia se ocupan en programación competitiva:
 
- - $begin():$
+ - $begin():$ Regresa un iterador que apunta al primer elemento del set.
 
- - $end():$
+ - $end():$ Regresa un iterador que apunta a la posición del elemento que iría después del ultimo (nota que no existe), por lo que no apunta a ningún elemento como tal, es solo para poder saber cuando acaba la secuencia de elementos.
 
- - $empty():$
+ - $empty():$ Es una función booleana que regresa ```True``` si no hay ningún elemento en el set, y si hay al menos un elemento regresa ```False```.
 
- - $size():$
+ - $size():$ Regresa un entero, indicando la cantidad de elementos que existen actualmente en el set.
 
- - $insert():$
+ - $insert(val):$ Es una función que toma como parámetro un elemento del mismo tipo que el set y lo inserta en la posición que le corresponde aumentando en uno el tamaño del set. Su complejidad es $O(log_2 N)$, donde $N$ es la cantidad de elementos del set. 
 
- - $erase():$
+*Para ver como insertar más de un elemento al mismo tiempo, ve al link que se recomienda mas abajo.*
 
- - $clear():$
+ - $erase(val):$ Es una función que toma como parámetro un elemento del mismo tipo que el set y lo elimina (en caso de existir, de lo contrario no pasa nada).Su complejidad es $O(log_2 N)$, donde $N$ es la cantidad de elementos del set. 
 
- - $lower$_$bound():$
+*Para ver como eliminar más de un elemento al mismo tiempo, ve al link que se recomienda mas abajo.*
 
- - $upper$_$bound():$
+ - $clear():$ Elimina todos los elementos del set.
+
+ - $lower$_$bound(val):$ Es una función que toma como parámetro un elemento del mismo tipo que el set y retorna un iterador que: 
+    
+   - Apunta a $val$ si existe.
+
+   - Apunta al siguiente elemento de la secuencia si existiese $val$ en el set.
+
+ - $upper$_$bound(val):$ Es una función que toma como parámetro un elemento del mismo tipo que el set y retorna un iterador que: 
+
+   - Apunta al siguiente elemento de la secuencia si existiese (o existe) $val$ en el set.
 
 Recuerda que para ocupar cualquiera de estas funciones se hace de la siguiente manera:
 
