@@ -131,4 +131,6 @@ void leermat(int mat[][4],int f,int c)
 
 # Tarea
 
+- [Traductor][1]
+
 [1]: https://omegaup.com/arena/problem/COMI-Traductor
