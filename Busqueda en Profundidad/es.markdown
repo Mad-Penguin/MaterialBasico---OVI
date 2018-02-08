@@ -1,4 +1,4 @@
-# Introducción
+﻿# Introducción
 
 La **búsqueda en profundidad** es una de las técnicas fundamentales dentro de las ciencias computacionales. También conocida como *Depth First Search (DFS)* es un tipo de búsqueda recursiva, cuyo funcionamiento se basa en el ***backtracking***.
 
@@ -40,11 +40,14 @@ A continuación, se puede apreciar la comparación entre el funcionamiento de un
 
 Tomemos como primer ejemplo el primer problema:
 
- *Sea $S$ una secuencia de $N$ enteros cualesquiera, cuyos valores se encuentran entre 0 y 9, inclusive. Indicar todas las posibles       subsecuencias distintas que se puedan generar dentro de la secuencia $S$.*
+	*Sea $S$ un conjunto de $N$ letras del alfabeto inglés. Indicar todas las posibles permutaciones, ordenadas en orden lexicográfico, usando las $N$ letras de $S$.*
  
-Entiéndase por subsecuencia un conjunto de enteros dentro de una secuencia (en éste caso, $S$) cuyas posiciones dentro de la misma sean consecutivas, y estén en orden creciente. Véase el siguiente ejemplo: 
+Entiéndase por *permutación* a cada forma de reordenar un conjunto de elementos de tal manera que, aunque sigan siendo los mismos, los elementos se encuentren en un distinto orden. En una permutación, **el orden de los elementos importa**, ya que cada permutación son los mismos elementos de un conjunto, pero en un orden distinto. 
 
-![secuenciaS](secuenciaS.png)
+![permutation](permutation.png)
 
-En la cadena $S={1,2,2,2,4,3,9,6}$, una posible subcadena es ${1,2,2}$, otra es ${3,9}$ y otra muestra de subcadena es ${4,3,9,6}$, por nombrar ejemplos (aunque éstas no son todas las posibles subsecuencias). Es necesario indicar que también son subsecuencias válidas el **vacío** ${}$ y la secuencia completa ${1,2,2,2,4,3,9,6}$, ya que cumplen la condición de estar dentro de la secuencia $S$ y que sus posiciones son crecientes y consecutivas. Ejemplos de subsecuencias no válidas son ${1,2,4}$ y ${6,9,3}$. De igual manera, repetir la subsecuencia ${2,2}$ más de una vez, aunque dentro de $S$ se repita, es incorrecto, ya que el problema pide que todas las subsecuencias sean distintas entre sí y no se repitan.
+Para resolver éste problema se puede utilizar búsqueda en profundidad. Las N letras de S pueden ser almacenadas en alguna estructura (arreglo, vector). Como se pide que las permutaciones sean impresas en orden lexicográfico, la forma más sencilla de resolver éste inconveniente es ordenar los N elementos desde un inicio.
 
+Una vez hecho ésto, se debe realizar la búsqueda. Podemos ver cada permutación como un tablero con N espacios en línea, donde en cada uno de esos espacios se coloca uno de los N elementos de S. La diferencia entre permutación y permutación es que el orden de los elementos es distinto.
+
+Para comenzar la búsqueda, se necesitará un parámetro: algo que nos indique en que posición del tablero, es decir, de la permutación se encuentra la búsqueda. También será necesario marcar que elementos se han tomado en la permutación. 
