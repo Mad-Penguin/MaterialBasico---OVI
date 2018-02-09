@@ -6,7 +6,7 @@ Se utiliza una cola para mantener el orden en que se visitan los elementos.
 
 Si representamos los elementos a visitar como un árbol, siendo el nodo 1 la raíz, los elementos se visitarían de la siguiente forma.
 
-!bfs.gif
+![bfs](bfs.gif)
 
 # Algoritmo
 
