@@ -142,7 +142,7 @@ El código solución podría quedar así:
     }
 
 
-#Problemas de práctica
+# Problemas de práctica
 
 https://omegaup.com/arena/problem/Intersecciones#problems
 https://omegaup.com/arena/problem/OIEG2013SSA#problems
