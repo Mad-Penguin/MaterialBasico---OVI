@@ -8,6 +8,10 @@ Si representamos los elementos a visitar como un árbol, siendo el nodo 1 la raíz
 
 ![bfs](bfs.gif)
 
+Cada vez que un elemento está en la cola será pintado de color gris, cuando se procesa se vuelve color negro, y sus hijos son agregados a la cola, por lo tanto se vuelven color gris. Esta animación representa el orden como entran a la cola los elementos, para ser procesados después.
+
+![bfs](bfs.gif)
+
 # Algoritmo
 
 La idea principal de la búsqueda en amplitud que elementos que están cerca del punto inicial, se visitarán antes que los elementos más lejanos al punto inicial. Para llevar el orden de los elementos a visitar se ocupa una cola, así, los elementos que entran primero a la cola se procesan primero que los elementos que entraron después.
