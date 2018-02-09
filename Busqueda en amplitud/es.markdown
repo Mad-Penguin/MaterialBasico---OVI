@@ -1,17 +1,5 @@
 # Introducción
 
-{
-
-{
-
-A
-A
-
-}
-
-}
-
-
 El algoritmo de búsqueda en amplitud es un método para visitar todos los elementos de un espacio de búsqueda, exactamente una vez y en un orden tal que, el primer elemento visitado es la raíz, luego se visitan todos los elementos a un "paso" de la raíz, luego todos los elementos a "dos" pasos de la raíz, etc.
 
 Se utiliza una cola para mantener el orden en que se visitan los elementos.
@@ -22,24 +10,27 @@ La idea principal de la búsqueda en amplitud que elementos que están cerca del p
 
 La estructura general de una búsqueda en amplitud es
 
- declarar cola de tipo Elemento
+    {
 
- declarar arreglo de elementos visitados
+       declarar cola de tipo Elemento
 
- declarar elementoRaiz,elementoHijo
+       declarar arreglo de elementos visitados
 
- interstar elementoRaiz a la cola
+       declarar elementoRaiz,elementoHijo
 
- mientras !condición de parado
+       interstar elementoRaiz a la cola
 
-{
+       mientras !condición de parado
 
-   procesar elemento al frente de la cola
+       {
+
+         procesar elemento al frente de la cola
    
-   insertar elementos hijos no visitados a la cola
+         insertar elementos hijos no visitados a la cola
 
-}
+       }
 
+    }
 
 //El tipo del dato del elemento 
 
