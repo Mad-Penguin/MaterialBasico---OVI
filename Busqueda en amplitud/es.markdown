@@ -10,7 +10,7 @@ Si representamos los elementos a visitar como árbol, siendo el nodo 1 la raíz, l
 
 Cada vez que un elemento está en la cola será pintado de color gris, cuando se procesa se vuelve color negro, y sus hijos son agregados a la cola, por lo tanto se vuelven color gris. Esta animación representa el orden como entran a la cola los elementos, para ser procesados después.
 
-![como](como.gif)
+![what](what.gif)
 
 # Algoritmo
 
