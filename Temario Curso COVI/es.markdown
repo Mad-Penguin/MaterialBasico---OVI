@@ -47,7 +47,7 @@ Estructura de datos Cola de prioridad    |    [   Colas de prioridad   ](https:/
 Estructura de datos Set    |    [   Sets    ](https://)
 Estructura de datos Map    |    [   Maps    ](https://omegaup.com/arena/problem/Map/#problems)
 Utilizar y entender busqueda en amplitud     |    [       ](https://)
-Utilizar  y entender busqueda en profundidad    |    [        ](https://)
+Utilizar  y entender busqueda en profundidad    |    [   Búsqueda en Profundidad    ](https://omegaup.com/arena/problem/Busqueda-en-Profundidad/#problems)
 Utilizar y entender busqueda binaria    |    [    Búsqueda Binaria   ](https://omegaup.com/arena/problem/Busqueda-Binaria-Material-COVI/#problems)
 Analizar utilizar y entender Bubble sort     |    [    Bubble    ](https://)
 Analizar utilizar y entender Insert sort     |    [    Insertion    ](https://)

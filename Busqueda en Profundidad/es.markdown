@@ -106,3 +106,8 @@ int main()
 }
 </pre>
 
+# Problemas para Practicar
+
+[Mr. Randy](https://omegaup.com/arena/problem/Mr-Randy#problems)
+[Swap Adjacent Elements](http://codeforces.com/problemset/problem/920/C)
+
