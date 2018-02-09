@@ -24,6 +24,7 @@ Es importante recalcar que el principio de no pasar por un estado ya visitado en
 
 # Recursión en la Profundidad
 
+
 Es de ahí donde surge la naturaleza ***recursiva*** de la DFS: al momento de explorar el espacio de búsqueda por medio de profundidad, se explora un estado y los hijos de éste, antes de explorar los estados hermanos y sus subsecuentes hijos; tomar estados hermanos en lugar del que se explora actualmente y visitar sus hijos queda pendiente mediante la **recursión**, la cual es llevada a cabo mediante diferentes instancias de una misma función, o mediante una estructura ***Stack*** de la STL. 
 
 # Diferencia entre Amplitud y Profundidad
@@ -46,8 +47,62 @@ Entiéndase por *permutación* a cada forma de reordenar un conjunto de elemento
 
 ![permutation](permutation.png)
 
-Para resolver éste problema se puede utilizar búsqueda en profundidad. Las N letras de S pueden ser almacenadas en alguna estructura (arreglo, vector). Como se pide que las permutaciones sean impresas en orden lexicográfico, la forma más sencilla de resolver éste inconveniente es ordenar los N elementos desde un inicio.
+Para resolver éste problema se puede utilizar búsqueda en profundidad. Las $N$ letras de $S$ pueden ser almacenadas en alguna estructura (arreglo, vector). Como se pide que las permutaciones sean impresas en orden lexicográfico, la forma más sencilla de resolver éste inconveniente es ordenar los $N$ elementos desde un inicio.
 
-Una vez hecho ésto, se debe realizar la búsqueda. Podemos ver cada permutación como un tablero con N espacios en línea, donde en cada uno de esos espacios se coloca uno de los N elementos de S. La diferencia entre permutación y permutación es que el orden de los elementos es distinto.
+Una vez hecho ésto, se debe realizar la búsqueda. Podemos ver cada permutación como un tablero con $N$ espacios en línea, donde en cada uno de esos espacios se coloca uno de los $N$ elementos de $S$. La diferencia entre permutación y permutación es que el orden de los elementos es distinto.
 
-Para comenzar la búsqueda, se necesitará un parámetro: algo que nos indique en que posición del tablero, es decir, de la permutación se encuentra la búsqueda. También será necesario marcar que elementos se han tomado en la permutación. 
+Para comenzar la búsqueda, se necesitará un parámetro: algo que nos indique en que posición del tablero, es decir, de la permutación se encuentra la búsqueda. También será necesario marcar que elementos se han tomado en la permutación, utilizando un arreglo de booleanos o algún otro método. 
+
+Con éstas herramientas, la idea es simple: por cada posición en la que vayamos, se buscarán entre las $N$ letras del conjunto $S$ a la primera que no haya sido ocupada (es decir, la que no esté marcada), ya que esa será el menor elemento disponible lexicográficamente, ya que $S$ fue ordenado. Una vez que se tome un elemento, se avanza en la búsqueda, haciendo un nuevo llamado a la función recursiva, cuyo parámetro aumentará en uno para indicar que se avanza en posición.
+
+Se hace lo mismo por cada posición: recorrer las $N$ letras hasta encontrar la primera desmarcarla, tomar ese elemento y marcarlo, para que otra posición más adelante no intente usarlo. Una vez que las N posiciones estén asignadas a algún elemento de S, la búsqueda se detiene, imprime los elementos en el orden que estén asignados y comienza el backtracking. 
+
+En el backtracking (es decir, el regreso recursivo de la función) se desmarca el elemento tomado anteriormente, indicando que ya no se va a usar, y se continua recorriendo el conjunto ordenado $S$ para tomar el siguiente elemento menor lexicográficamente que esté disponible. Se toma y se hace lo que ya fue explicado anteriormente. Todo el proceso anterior se repetirá con todas las letras de $S$, ya que se buscan todas las permutaciones posibles.
+
+A continuación se presenta un código de ejemplo:
+
+<pre>
+#include<stdio.h> ///entrada y salida de datos
+#include<algorithm> ///algoritmo de ordenación
+using namespace std;
+int n;
+char conjuntoS[10]; ///conjunto S
+char perm[10]; ///arreglo donde se almacenan las permutaciones de S
+bool marks[10]; ///arreglo para marcar elementos
+void permutations(int pos)
+{
+    if(pos==n) ///si la posición es igual a N, imprimir y cortar
+    {
+        for(int i=0;i<n;i++)
+            printf("%c",perm[i]);
+        printf("\n");
+        return;
+    }
+
+    for(int i=0;i<n;i++) ///recorrer los N elementos de S para buscar que asignar
+    {
+        if(!marks[i]) ///si no está marcado el elemento i, asignar
+        {
+            marks[i]=true; ///marcar
+            perm[pos]=conjuntoS[i]; ///asignar a la posicion pos el elemento i
+            permutations(pos+1); ///avanzar uno en la busqueda
+            marks[i]=false; ///desmarcar para poder volver a utlizar elemento i
+        }
+    }
+}
+
+int main()
+{
+    scanf("%d",&n); ///leer cuantos elementos tiene S
+    for(int i=0;i<n;i++)
+        scanf(" %c",&conjuntoS[i]); ///leer los elementos de S
+
+    sort(conjuntoS,conjuntoS+n); ///ordenar S
+    printf("\n");
+
+    permutations(0); ///mandar a llamar la búsqueda desde la posición 0
+
+    return 0;
+}
+</pre>
+
