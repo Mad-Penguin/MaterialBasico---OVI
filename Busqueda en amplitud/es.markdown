@@ -41,7 +41,7 @@ Para resolver este problema es muy útil una búsqueda en amplitud, porque queremo
 
 El código solución podría quedar así:
 
-{
+    {
 
     //Declaramos una cola, para mantener el orden de los numeros que vamos a calcular
 
@@ -139,12 +139,11 @@ El código solución podría quedar así:
 
     return 0;
 
+    }
 
-
-
-}
 
 #Problemas de práctica
+
 https://omegaup.com/arena/problem/Intersecciones#problems
 https://omegaup.com/arena/problem/OIEG2013SSA#problems
 
