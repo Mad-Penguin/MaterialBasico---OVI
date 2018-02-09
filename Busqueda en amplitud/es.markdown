@@ -2,9 +2,9 @@
 
 El algoritmo de búsqueda en amplitud es un método para visitar todos los elementos de un espacio de búsqueda, exactamente una vez y en un orden tal que, el primer elemento visitado es la raíz, luego se visitan todos los elementos a un "paso" de la raíz, luego todos los elementos a "dos" pasos de la raíz, etc.
 
-Se utiliza una cola para mantener el orden en que se visitan los elementos.
+Se usa una cola para mantener el orden en que se visitan lod elementos.
 
-Si representamos los elementos a visitar como un árbol, siendo el nodo 1 la raíz, los elementos se visitarían de la siguiente forma.
+Si representamos los elementos a visitar como un árbol, siendo el nodo 1 la raíz, los elementos se visitarían de la siguiente forma. 
 
 ![bfs](bfs.gif)
 
