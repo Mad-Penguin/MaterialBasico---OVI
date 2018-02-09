@@ -32,9 +32,6 @@ La estructura general de una búsqueda en amplitud es
 
     }
 
-//El tipo del dato del elemento 
-
-
 
 # Problema de ejemplo y explicación del algoritmo
 
@@ -44,31 +41,33 @@ Para resolver este problema es muy útil una búsqueda en amplitud, porque queremo
 
 El código solución podría quedar así:
 
-**Declaramos una cola, para mantener el orden de los numeros que vamos a calcular**
-
- #include < stdio.h>
-
- #include< queue>
-
-using namespace std;
-
-int n,a,b;
-struct nodo
-
 {
-    int pasos,valor;
 
-};
+    //Declaramos una cola, para mantener el orden de los numeros que vamos a calcular
 
-queue< nodo>cola;
+    #include < stdio.h>
 
-nodo padre,hijo;
-bool v[10001];
+    #include< queue>
+
+    using namespace std;
+
+    int n,a,b;
+    struct nodo
+
+    {
+        int pasos,valor;
+
+    };
+
+    queue< nodo>cola;
+
+    nodo padre,hijo;
+    bool v[10001];
 
 
-int main()
+    int main()
 
-{
+    {
 
     //leemos los datos de entrada
 
@@ -139,6 +138,8 @@ int main()
     }
 
     return 0;
+
+
 
 
 }
