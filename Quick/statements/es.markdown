@@ -33,11 +33,11 @@ int partir(int a[], int pIni, int pFin){
 	int der = pFin;
 	int piv = a[izq];
 	while(izq < der){
-		while(a[izq]<= piv)
+		while(a[izq] &lt;= piv)
 			izq++;
-		while(a[der]> piv)
+		while(a[der] &gt; piv)
 			der--;
-		if (izq < der){
+		if (izq &lt; der){
 			int aux = a[izq];
 			a[izq] = a[der];
 			a[der] = aux;
@@ -51,3 +51,13 @@ int partir(int a[], int pIni, int pFin){
 </pre>
 
 La siguiente función es el algoritmo quick sort en la que se pasa como parámetros el arreglo, la posición inicial y la final. Esta función manda a llamar a la función pivote para realizar la partición y tener dos conjuntos que también se ordenan por el mismo método.
+
+<pre>
+void ordRapido(int a[], int pIni, int pFin ){
+	if (pIni &lt; pFin){
+		int pos = partir(a,pIni, pFin);
+		ordRapido(a, pIni, pos-1);
+		ordRapido(a, pos+1, pFin);
+	}
+}
+</pre>

@@ -12,10 +12,10 @@ El código de esta función sería:
 
 <pre>
 void seleccion(int a[], int n){
-	for(int i =0; i< n-1; i++){
+	for(int i =0; i &lt n-1; i++){
 		int posM = i;
-		for(int j=i+1; j<n; j++){
-			if(a[j]<a[posM]){
+		for(int j=i+1; j &lt n; j++){
+			if(a[j] &lt a[posM]){
 				posM = j;			
 			}
 		}

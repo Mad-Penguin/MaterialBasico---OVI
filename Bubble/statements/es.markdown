@@ -45,9 +45,9 @@ Implementación
 
 <pre>
 void burbuja(int a[], int n){
-	for(int i =0; i< n-1; i++){
-		for(int j =n-1; j> i; j--){
-			if(a[j]<a[j-1]){
+	for(int i =0; i &lt n-1; i++){
+		for(int j =n-1; j &gt i; j--){
+			if(a[j] &lt a[j-1]){
 				int aux = a[j];
 				a[j] = a[j-1];
 				a[j-1] = aux;
