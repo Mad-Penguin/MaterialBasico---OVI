@@ -25,7 +25,44 @@ $F_1=1$
 
 $F_{n}=F_{n-1}+F_{n-2}$ con $n \geq 2$
 
+Una idea de solución seria una recursiva con casos base $F_0$ y $F_1$ de la siguiente manera:
 
+<pre>
+int Fibo(int n){
+    if(n &lt; 2) return 1;
+    return Fibo(n-1) + Fibo(n-2);
+}
+</pre>
 
+Sin embargo está solución es muy lenta para casos grandes. Analicemos lo que la función Fibo(n) hace, los estados que visita para n=5.
+
+![fiboTree](FiboTree.png)
+
+Como se aprecia en la imagen $F_5$ se calculó una vez, $F_4$ una vez, $F_3$ dos veces y $F_2$ tres veces.
+
+Es evidente que estamos haciendo operaciones de más, de acuerdo a la técnica Top−Down podemos almacenar las respuestas obtenidas anteriormente para solo calcularlas una vez con una ligera modificación del código (ocupar memorización).
+
+<pre>
+int memo[maxN];
+
+int Fibo(int n){
+    if(n &lt; 2) return 1;
+    if(memo[n]) return memo[n];  /// Preguntar si ya hemos calculado la respuesta antes.
+    return memo[n] = Fibo(n-1) + Fibo(n-2); /// Como no se ha calculado Fibo(n), lo calculamos y lo almacenamos en memo[n]
+}
+</pre>
+
+Por el hecho de que cada estado se calcula una sola vez, la complejidad es $O(n)$.
+
+Con la técnica Bottom−Up primero se deben establecer los casos triviales, que para este ejemplo serian $F_0$ y $F_1$ ya que sabemos su valor. Después los demás casos deben ser construidos a partir de estos.
+
+<pre>
+int Fibo[maxN];
+Fibo[0] = Fibo[1] = 1;  /// Casos triviales
+for(int i=2; i &lt; n; i++) 
+   Fibo[i] = Fibo[i-1] + Fibo[i-2];
+</pre>
+
+Como se puede observar en este segundo código, podemos obtener el valor de cualquier $F_m$ talque $m \leq n$ en constante, con un precalculo de complejidad $O(n)$.
 
   [1]: https://en.wikipedia.org/wiki/Optimal_substructure

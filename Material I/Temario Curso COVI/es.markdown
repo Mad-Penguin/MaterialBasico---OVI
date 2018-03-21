@@ -32,6 +32,8 @@ El temario a tratar es el siguiente:
  * Profundidad
  * Binaria
 
+###Matemáticas
+ * Aritmética y Divisibilidad
 
 Cada sección contiene un tutorial, un conjunto de problemas y sus soluciones y en la mayoría de los casos una explicación de la
 solución. 
@@ -46,7 +48,7 @@ Estructura de datos Lista enlazada    |    [   Listas enlazadas    ](https://)
 Estructura de datos Cola de prioridad    |    [   Colas de prioridad   ](https://omegaup.com/arena/problem/Cola-de-prioridad/#problems)
 Estructura de datos Set    |    [   Sets    ](https://omegaup.com/arena/problem/Set-COVI/#problems)
 Estructura de datos Map    |    [   Maps    ](https://omegaup.com/arena/problem/Map/#problems)
-Utilizar y entender busqueda en amplitud     |    [       ](https://)
+Utilizar y entender busqueda en amplitud     |    [   Búsqueda en Amplitud    ](https://omegaup.com/arena/problem/COVI-BusquedaAmplitud/#problems)
 Utilizar  y entender busqueda en profundidad    |    [   Búsqueda en Profundidad    ](https://omegaup.com/arena/problem/Busqueda-en-Profundidad/#problems)
 Utilizar y entender búsqueda binaria    |    [    Búsqueda Binaria   ](https://omegaup.com/arena/problem/Busqueda-Binaria-Material-COVI/#problems)
 Introducción a métodos de ordenamiento     |    [    Introducción    ](https://omegaup.com/arena/problem/OVI-IntroduccionOrdenamiento/#problems)
@@ -56,3 +58,5 @@ Analizar utilizar y entender Insert sort     |    [    Insertion    ](https://om
 Analizar utilizar y entender Merge sort     |    [    Merge    ](https://omegaup.com/arena/problem/OVI-MergeSort/#problems)
 Analizar utilizar y entender Quick sort    |    [    Quicksort    ](https://omegaup.com/arena/problem/OVI-QuickSort/#problems)
 Analizar utilizar y entender Heap sort    |    [    Heapsort    ](https://omegaup.com/arena/problem/OVI-HeapSort/#problems)
+Aritmética y Divisibilidad    |    [    Aritmética y Divisibilidad    ](https://omegaup.com/arena/problem/Aritmetica-y-Divisibilidad/#problems)
+Introducción a programación dinámica    |    [    DP    ](https://omegaup.com/arena/problem/OVI-Introduccion-a-DP/#problems)
