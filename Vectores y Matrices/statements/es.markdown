@@ -64,7 +64,7 @@ Aquí hay un pequeño programa que demuestra el uso de ciclos for para crear tab
   int main ()
   {
       int array[ 8 ][ 8 ]; // Declara un arreglo de dos dimensiones
-      for ( int i = 0; i < 8; i++ )
+      for ( int i = 0; i <  8; i++ )
       {
           for ( int j = 0; j < 8; j++ )
           {
@@ -97,7 +97,7 @@ Por supuesto, a menos que la función “sepa” cuán grande es el arreglo, par
 int sumArray (int values[], int size)
 {
   int sum = 0;
-  for ( int i = 0; i < size; i++ )
+  for ( int i = 0; i &lt size; i++ )
   {
       sum += values[ i ];
     }
@@ -116,9 +116,9 @@ Función para “leer” datos de una matriz de 3x3
 <pre>
 void leermat(int mat[][4],int f,int c)
 {
-  for (int i=0;i<f;i++)
+  for (int i=0;i &lt f;i++)
   {
-    for(int j=0;j<c;j++)
+    for(int j=0;j &lt c;j++)
     {
         int dato;
         cin>>dato;
