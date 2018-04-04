@@ -1,16 +1,51 @@
-Grafos
-///conceptos: grafos,aristas, nodos, outdegree,indegree
+# Grafos
+Un grafo es la representación gráfica (de ahí el nombre) de los *elementos de un conjunto*, representados mediante nodos o vértices, y las relaciones entre éstos, las cuales se representan con aristas. 
 
+En un grafo, cada vértice puede ser visto como un elemento individual de un conjunto mayor, cada uno con sus propios atributos (ID, valor, etc.). Éste nodo o vértice puede (o no) estar conectado a otros nodos mediante aristas, indicando que están relacionados de alguna manera. 
+Una arista puede ser *bidireccional* o no, dependiendo del tipo de grafo, tal como se verá más adelante. Una arista bidireccional es aquella que permite a los dos nodos que conecta interactuar entre sí de ambos lados; es decir, el nodo $i$ puede comunicarse con el nodo $j$ y viceversa, considerando que la arista une a estos dos.
+Las aristas pueden formar *ciclos*, es decir, un conjunto de vértices unidos mediante un recorrido de aristas de tal manera que formen un camino que inicie en un nodo y termine en ese mismo nodo, formando una "figura cerrada".
 
-Representación de un Grafo
+Se dice que un grafo es *conexo* si para cada par de nodos $(i,j)$ hay al menos un camino de aristas que los conecten.
+
+A menudo, los vértices representan estados dentro de un espacio de búsqueda, y las aristas una transformación entre dos nodos o dos estados, indicando que desde un estado es posible llegar al otro.
+
+Desde un punto de vista práctico, un grafo permite estudiar las interrelaciones entre los elementos de un conjunto y la forma en que éstos interactuan.
+
+![graphEx](graphEx.png)
+
+#Tipos de Grafos
+
+*- Grafo dirigido.* Es aquel en el que las aristas *no son* bidireccionales. Cada arista tiene un sentido, el cual se sigue siempre. Si una arista conecta a los nodos $i$ y $j$, y su sentido es tal que va desde $i$ a $j$, entonces, aunque el nodo $i$ puede comunicarse con el $j$, ésto no funciona al reverso: $j$ no puede comunicarse con $i$, ya que rompería el sentido de la arista.
+
+![dirGraphEx](dirGraph.png)
+
+*- Grafo no dirigido.* Es aquel en el que las aristas *son* bidireccionales. Como las aristas no siguen un sentido en especifico, dos nodos unidos por una misma arista pueden comunicarse entre si con total libertad, es decir, tanto $i$ puede ir a $j$ como la información puede viajar de $j$ a $i$.
+
+![notDirGraphEx](notDirGraph.png)
+
+*- Grafo ponderado.* Cada arista tiene un peso, es decir, la relación o transición de un nodo a otro implica un costo, representado por el peso de la arista. En otras palabras, para moverse de un nodo $i$ al $j$, hay un costo.
+
+![ponGraph](ponGraph.jpg)
+
+*- Grafo no ponderado.* Las aristas no tienen peso, por lo que solo se evalua una relacion como existente, y no se toma en cuenta cuanto cueste realizar una transición entre nodos.
+
+![unponGraph](unponGraph.jpg) 
+
+Para éstos cuatro tipos de grafos pueden existir combinaciones, es decir, pueden haber grafos dirigidos no ponderados, grafos no dirigidos ponderados, etc.
+
+*- Árbol.* Un árbol es un grafo no dirigido, acíclico y conexo. Cumple las siguientes condiciones: si se le quita una arista, deja de ser conexo; si se le agrega una arista, se forma un ciclo; si es finito y tiene $n$ vértices, entonces tiene $n-1$ aristas.
+
+![tree](tree.png) 
+
+# Representación de un Grafo
 
 Para representar y almacenar un grafo se puede realizar de varias maneras. A continuación, se presentan distintas maneras de realizarlo.
 
-Matriz de Adyacencia
+# Matriz de Adyacencia
 
 Una matriz de adyacencia es una forma de representar el grafo tal que, sobre la matriz en posición $[i,j]$, hay una marca, indicando que los nodos $i$ y $j$ están unidos por una arista.
 La principal ventaja de ésta forma de almacenar el grafo es que las consultas sobre si un nodo $i$ está conectado a un nodo $j$ son *constantes*, es decir, tienen una complejidad $O(1)$ sobre el tiempo.
-No obstante, su principal desventaja es el gran costo que implica almacenarlo, ya que tiene una complejidad en memoria de $O(N^{2})$.
+No obstante, su principal desventaja es el gran costo que implica almacenarlo, ya que tiene una complejidad en memoria de $O(V^{2})$. Para grafos con una gran cantidad de nodos, resulta imposible representarlos utilizando ésta forma, donde $v$ es el número de vértices o nodos.
 
 Una matriz de adyacencia puede hacerse utilizando una matriz de booleanos. Para una arista que une los nodos $(i,j)$, la posición $[i,j]$ de la matriz estará marcada con true. 
 Dependiendo del tipo de grafo en cuestión, esa misma arista puede ser bidireccional o no, es decir, que usando la misma arista se puede . Si se trabaja sobre un grafo no dirigido, la arista *es* bidireccional, por lo que se puede ir del nodo $i$ al nodo $j$ y viceversa; es decir, al registrar la arista, tanto $[i,j]$ como $[j,i]$ se marcarán.
@@ -22,6 +57,33 @@ A continuación, se muestran ejemplos de grafos dirigidos, no dirigidos y pondera
 
 ![adjacencyMatrix](adjacencyMatrix.png)
 
-Mientras que consultar si los nodos $i$ y $j$ están conectados es constante, revisar todas las adyacencias de un nodo tiene una complejidad *lineal*, es decir, $O(N)$, por lo que hay que tener cuidado con éste aspecto. 
+Mientras que consultar si los nodos $i$ y $j$ están conectados es constante, revisar todas las adyacencias de un nodo tiene una complejidad *lineal*, es decir, $O(V)$, por lo que hay que tener cuidado con éste aspecto.
 
-//////desventaja sobre que no puedes conectar los mismos nodos por diferentes aristas
+Código para representar un grafo no ponderado con una Matriz de Adyacencia
+
+![adjacencyMatrix_unpondered](adjacencyMatrix_unpondered.png)
+
+Código para representar un grafo ponderado con una Matriz de Adyacencia
+
+![adjacencyMatrix_pondered](adjacencyMatrix_pondered.png)
+
+# Lista de Adyacencia
+
+Una lista de adyacencia permite representar representar el grafo, guardando únicamente las aristas que van hacia algún nodo $j$ desde el nodo $i$. Si el nodo $i$ tiene una arista que lleva al nodo $j$, entonces se almacena al nodo $j$ en la lista del nodo $i$; dicha lista tiene todos los nodos adyacentes al nodo $i$, por lo que cada nodo tiene su propia lista.
+La complejidad en memoria es, a lo más, $O(V+E)$, donde $V$ es la cantidad de nodos y  $E$, las aristas. Ésto es debido a que, debido a que cada nodo tiene su propia lista de adyacencia, existen $V$ listas para cada uno de los nodos. Además, existen $E$ aristas, cada una apareciendo en cada una de las listas (incluso puede que la misma arista sea incluida en dos listas, en el caso de un grafo no dirigido, ya que ambos nodos pueden utilizarla para unirse), por lo que a lo más existirán $2(E)$. En resumen, hay $V$ nodos, y 2$E$ aristas repartidas entre las $N$ listas, con una complejidad en memoria de $(V+2E) = O(V+E)$. 
+En cuanto al tiempo, para conocer todos los nodos adyacentes a un vértice dado solo hay que recorrer la lista de dicho nodo, por lo que, en el peor de los casos, tiene una complejidad de $O(E)$ sobre el tiempo.
+
+Para representar una lista de adyacencia, es recomendable utilizar un arreglo de estructura *vector*, incluida en la librería *<vector>* de la STL, donde cada posición $i$ tenga la lista de los nodos adyacentes al vértice $i$. Sea $adj$ el conjunto de listas de adyacencia; una de cada nodo. Si el nodo $i$ está conectado al nodo $j$, entonces $adj_i$ contendrá el entero $j$, indicando que se puede ir al nodo $j$.
+En el caso de un grafo ponderado, la lista de adyacencia soporta el almacenamiento de éstos mediante la inclusión de una segunda lista para cada nodo; ésta representa los pesos de cada arista. Sea $w$ el conjunto de las listas de pesos de las aristas de cada nodo. Por cada arista agregada en $adj_i$ en alguna posición $k$, se agrega en $w_i$ en posición $k$ algún valor que indica el peso de la arista.
+
+![adjacencyList](adjacencyList.png)
+
+Nótese que, debido a que ciertos grafos permiten que existan distintas aristas que conectan un mismo par de nodos, se puede guardar en $adj_i$ varias veces el entero $j$, ya que no representan la misma arista, y cada una tiene su peso independiente de la otra (aunque tengan el mismo destino).
+
+Código para representar un grafo no ponderado con una Lista de Adyacencia
+
+![adjacencyList_up](adjacencyList_up.png)
+
+Código para representar un grafo ponderado con una Matriz de Adyacencia
+
+![adjacencyList_p](adjacencyList_p.png)
